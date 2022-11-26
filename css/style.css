@@ -1,0 +1,95 @@
+
+/*
+** Style Simple Ecommerce Theme for Bootstrap 4
+** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+*/
+* {
+    text-decoration: none !important;
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    
+}
+.navbar{
+    background-color: #034b42;
+}
+#form{
+    color: gray;
+    border-radius: 4px;
+    border-color: gray;
+}
+.bloc_left_price {
+    color: #034b42;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.card-img-top{
+    height: 200px;
+    box-shadow: 0 4px 8px;
+   
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  }
+
+  .teste_card{
+    width: 100%;
+}
+.card-title a{
+    color: slategray;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+
+.category_block li a {
+    color:black;
+}
+.add_to_cart_block .price {
+   
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color:#ffffff;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* .product_rassurance .list-inline li:hover {
+    color: #034b42;
+} */
+
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: #034b42;
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa!important
+}
+.h1{
+    color: #ffffff;
+}
+#titulo{
+    margin-top: 60px;
+}
+#carouselExampleCaptions{
+    margin-top: 40px;
+}
+#pag{
+ justify-content: center;
+}

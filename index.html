@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Site CEAC</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">CEAC</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Sobre nós</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="category.html">Serviços <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Publicações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Contatos</a>
+                        </li>
+
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group input-group-sm">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                                <button id="form" class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                              </form>
+                            </div>
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <main class="container">
+            <section id="titulo" class="jumbotron text-center ">
+                <div class="container">
+                    <h1 class="jumbotron-heading">Você conhece a Instituição CEAC?</h1>
+                    <p class="lead text-muted mb-0">Somos um orgão publico, atualmente residindo na Rua XV de Novembro,
+                        338
+                        - Centro - Machado - MG, oferecendo diversos serviços gratuitos para a população </p>
+                </div>
+            </section>
+
+
+            <!-- Inicio Carrosel -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+
+                </div>
+
+                <div class="carousel-inner" style="max-height:480px">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="images/Cópia de Carroussel[5]-5400x1080.jpg" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/Cópia de Carroussel[2]-5400x1080.jpg" class="d-block w-100" alt="Ceac2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/Cópia de Carroussel[3]-5400x1080.jpg" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> <!-- fim carrosel -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Menu</a></li>
+                                <li class="breadcrumb-item"><a href="category.html">Categorias de serviços</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Serviço</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-3">
+                        <div class="card bg-light mb-3">
+                            <div class="card-header text-white text-uppercase" style="background-color: #034b42;"><i
+                                    class="fa fa-list"></i>
+                                Categorias</div>
+                            <ul class="list-group category_block text-uppercase">
+                                <li class="list-group-item"><a href="category.html">Impressões</a></li>
+                                <li class="list-group-item"><a href="category.html">Computadores</a></li>
+                                <li class="list-group-item"><a href="category.html">Cursos</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="card bg-light mb-3">
+                            <div class="card-header text-white text-uppercase" style="background-color: #034b42;">Cursos
+                            </div>
+                            <div class="card-body">
+                                <img class="img-fluid" src="images/curso.jpg" />
+                                <h5 class="card-title">Curso Ofertado no momento</h5>
+                                <p class="card-text">Curso de computação gratuita ofertados pelos alunos do Campus
+                                    Machado.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="row grid-container gy-2 gx-2">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/aplicações do detran.jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="detran.html" title="View Detran">Aplicações do
+                                                Detran Mg</a></h4>
+                                        <!-- <p class="card-text">(Solicitação de renovação de CNH e demais serviços do Portal Detran-MG
+                                        Informações e impressões de taxas IPVA, DPVAT)</p> -->
+                                        <div class="row">
+                                            <div class="col">
+
+                                            </div>
+                                            <div class="col">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/cidadania.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="cidadania.html" title="View cidadania">Aplicação
+                                                para cidadania</a></h4>
+                                        <!-- <p class="card-text">(2ª via de CPF (não declarante de imposto de Renda)
+                                     2ª via de identidade, entre outros)</p> -->
+                                        <div class="row">
+                                            <div class="col">
+
+                                            </div>
+                                            <div class="col">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/impressao.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="impressao.html"
+                                                title="View impressao">Impressão</a>
+                                        </h4>
+                                        <!-- <p class="card-text">Xerox e digitalização de documentos</p> -->
+                                        <div class="row">
+                                            <div class="col">
+
+                                            </div>
+                                            <div class="col">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/atendimento.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="atendimento.html"
+                                                title="View atendimento">Atendimentos Cohab</a></h4>
+                                        <!-- <p class="card-text">auxilio aos mutuários a sanar pendências relativas aos imóveis</p> -->
+                                        <div class="row">
+                                            <div class="col">
+
+                                            </div>
+                                            <div class="col">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/projeto.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="projeto.html" title="View projeto">Projeto para
+                                                Cidadões (Inscrições)</a></h4>
+                                        <p class="card-text"></p>
+                                        <div class="row">
+                                            <div class="col">
+
+                                            </div>
+                                            <div class="col">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/atestado.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="atestado.html" title="View Emissão">Emissão de
+                                                Atestado de Antecedentes Criminais</a></h4>
+                                        <p class="card-text"></p>
+                                        <div class="row">
+                                            <div class="col">
+
+                                            </div>
+                                            <div class="col">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <nav aria-label="Navegação de página exemplo">
+                                    <ul class="pagination">
+                                      <li class="page-item"><a class="page-link" href="index.html">Anterior</a></li>
+                                      <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                                      <li class="page-item"><a class="page-link" href="pagina dois.html">2</a></li>
+                                      <li class="page-item"><a class="page-link" href="pagina dois.html">Próximo</a></li>
+                                    </ul>
+                                  </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer class="text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-4 col-xl-3">
+                        <h5>Contact</h5>
+                        <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                        <p class="mb-0">
+                            Para mais informações sobre nós entre em contato conosco
+                        </p>
+
+                        <li><i class="fa fa-envelope mr-2"></i> email@example.com</li>
+                        <li><i class="fa fa-phone mr-2"></i>Telefone: (35) 3295-8371</li>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                        <h5>Informations</h5>
+                        <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+
+                        <li><i class="fa fa-home mr-2"></i> Rua XV de Novembro,338 - Centro - Machado - MG</li>
+
+
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                        <h5>Câmara munincipal</h5>
+                        <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.camaramachado.mg.gov.br/"> <i> Câmara munincipal Machado</i> </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="col-12 copyright mt-3">
+                    <p class="float-left">
+                        <a href="#">Voltar ao topo</a>
+                    </p>
+                    <p class="text-right text-muted">criado pelos alunos do <a
+                            href="https://portal.ifsuldeminas.edu.br/"><i>Campus Machado</i></a> |
+                        <span>v. 1.3</span></p>
+                </div>
+            </div>
+
+        </footer>
+    </div> <!-- fim do container -->
+
+
+
+
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
